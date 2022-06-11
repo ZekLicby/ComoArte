@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(248, 222, 187);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.principal{
+    width: 50vw;
+    margin: auto;
+}
+
+.principal p{
+    font-size: 20px;
+    margin: 10vh;
+}
+
+.principal header h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 90vh;
+    width: 50vw;
+}
+
+main .quadrado{
+    height: 35%;
+    width: 30%;
+    background-color: white;
+    margin: auto;
+}
+
+main #q1{
+    background-image: url(../img/ceramicas.jpg);
+    background-size: cover;
+}
+
+main #q2{
+    background-image: url(../img/bonecos.jpg);
+    background-size: cover;
+}
+
+main #q3{
+    background-image: url(../img/renda.jpg);
+    background-size: cover; 
+}
+
+main #q4{
+    background-image: url(../img/madeira.jpg);
+    background-size: cover;
+}
+
+main #q5{
+    background-image: url(../img/cestas.png);
+    background-size: cover;  
+}
+
+main #q6{
+    background-image: url(../img/indio.jpeg);
+    background-size: cover;
+}
+
+main a p{
+    text-align: center;
+    margin: 45% auto;
+    font-size: 1.7em;
+    color:black;
+    background: rgba(255, 255, 255, 0.493);
+}

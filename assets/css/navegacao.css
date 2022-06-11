@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height:100%;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 10vw;
+    height: 95vh;
+    background-image: linear-gradient(rgba(250, 25, 25, 0.550), rgba(250, 25, 25, 0.550)), url(../img/centro.jpeg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.conteudo-nav{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container .conteudo-nav img{
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10%;
+    border-radius: 25%;
+}
+
+.container .conteudo-nav img:hover, .container .conteudo-nav p:hover{
+    transition: .2s ease-out;
+    color: #ccc;
+    font-size: 1.1em;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+
+body{
+    background-color: rgb(248, 222, 187);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.principal{
+    width: 50vw;
+    margin: auto;
+}
+
+.principal p{
+    font-size: 20px;
+    margin: 10vh;
+}
+
+.principal header h1{
+    font-size: 4em;
+    text-align: center;
+}

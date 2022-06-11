@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/navegacao.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <script src="assets/js/registro.js"></script>
+
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navegacao">
+
+            <img src="assets/img/marca.png" alt="">
+
+            <div class="conteudo-nav">
+                <a href="index.html">
+                    <img src="assets/img/home32.png" alt="">
+                    <p>Home</p>
+                </a>
+            </div>
+            <div class="conteudo-nav">
+                <a href="pag03.html">
+                    <img src="assets/img/culi32.png" alt="">
+                    <p>Culinária</p>
+                </a>
+            </div>
+            <div class="conteudo-nav">
+                <a href="pag04.html">
+                    <img src="assets/img/art32.png" alt="">
+                    <p>Artesanato</p>
+                </a>
+            </div>
+            <div class="conteudo-nav">
+                <a href="pag05.html">
+                    <img src="assets/img/user32.png" alt="">
+                    <p>Perfil</p>
+                </a>
+            </div>
+        </nav>
+        <form autocomplete="off" id="form">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <br>
+                <p class="campo-form">
+                    <input type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+                </p>
+                <br><br>
+                <p class="campo-radio">
+                    <p>Tipo de pessoa</p><br>
+                    <label for="pessoa">Jurídica</label>
+                    <input type="radio" id="juridica" name="pessoa" required>
+                    <label for="pessoa">Física</label>
+                    <input type="radio" id="fisica" name="pessoa">
+                </p>
+                <br>
+                <p class="campo-form">
+                    <input type="number" placeholder="CPF ou CNPJ" required>
+                </p>
+                <br>
+                <p class="campo-form">
+                    <input type="email" placeholder="E-mail" required>
+                </p>
+                <br>
+                <p class="campo-form">
+                    <input type="password" placeholder="Senha" required>
+                </p>
+                <br>
+                <p class="campo-form">
+                    <input type="password" placeholder="Confirmar senha" required>
+                </p>
+                <br>
+                <p class="campo-form">
+                    <button type="submit" id="sub" onclick="">Cadastrar</button>
+                </p>
+                <br>
+            </fieldset>
+        </form>
+    </div>
+    <div class="preenchimento"></div>
+</body>
+</html>
+
